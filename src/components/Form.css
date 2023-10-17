@@ -1,0 +1,35 @@
+/* Form.css */
+.form-container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: lightslategray;
+  border-radius: 5px;
+}
+.form-container h3 {
+  color: pink;
+}
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container input,
+.form-container button {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.form-container button {
+  background-color: #cc7a66;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.form-container p {
+  color: white;
+}
+
+.form-container button:hover {
+  background-color: #ff9980;
+}
